@@ -1,0 +1,182 @@
+
+
+
+.nav2{
+    height: 40%;
+    padding: 1px;
+    width: 98%;
+    margin: 10px;
+    border-radius: 20px;
+    background: rgb(13, 86, 110);
+    text-align: center;
+    color: white;
+    
+}
+
+.box .img img{
+    height: 30%;
+    width:50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background: rgb(13, 86, 110);
+
+
+
+}
+
+
+.bullent h1{
+    padding: 2%;
+    font-size: large;
+    font-family:'Times New Roman', Times;
+    text-align: center;
+    background: lightblue;
+    border-spacing: 20%;
+    border-radius: 20px;
+    
+}
+
+.bullent h1:hover {
+    
+    transition: 0.5s;
+    text-transform: uppercase;
+
+
+    
+}
+
+.box{
+    align-content: center;
+    padding-left: 30%;
+}
+h2{
+    padding: 2%;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-style: italic;
+  font-size: medium;
+
+}
+.motto{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*           footer           */
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+  
+footer {
+    background-color: #bbb4b4;
+    color:#050e15;
+    padding: 20px 0;
+    
+  }
+.h3{
+  color:rgb(169, 163, 163);
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.contact-info, .social-links, .quick-links {
+    flex: 1;
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+ul li {
+    margin-bottom: 8px;
+  }
+  
+.a1 {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.a1:hover {
+    text-decoration: underline;
+  }
+  
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+.social-icons li {
+    margin-right: 10px;
+  }
+  
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+.social-icons i {
+    transition: color 0.3s ease-in-out;
+  }
+  
+.social-icons a:hover i {
+    color: #050e15; /* Change color on hover */
+  }
+
+.contadd{
+    font-family: 'Times New Roman', Times, serif;
+    color: #f7f6fd;
+  }
+
+
+#footer{
+    border: 5px;
+    /* padding: 5px;
+    margin:5px; */
+    border-radius: 2%;
+    /* margin-left: 8%; */
+    background: rgb(99, 179, 216);
+  
+  
+}
+/*     footer developer    */
+
+.developer{
+  border-radius: 70%;
+  background: white;
+  text-align: center;
+  justify-content: center;
+  color: #00001b;
+  font-style: italic;
+
+}
+.developer :hover {
+  background: rgb(197, 199, 207);
+  transition: 0.5s;
+  text-transform: uppercase;
+  border-radius: 50%;
+}

@@ -1,0 +1,169 @@
+*{
+  padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+  nav {
+    padding: 0;
+    margin: 0 0 0 200px;
+  
+    width: 90%;
+    justify-content: center;
+    /* float: left; */
+    background: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .logo {
+    width: 10px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-items: center; */
+    /* justify-content: space-around ; */
+  }
+  
+  .logo img {
+    position: absolute;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    align-items: center;
+  }
+  nav a {
+    width: 120px;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 20px;
+    /* text-decoration: solid; */
+    font-family: Arial, Helvetica, sans-serif;
+  
+    text-align: center;
+    display: flex;
+    justify-content: inherit;
+  }
+  nav a:hover {
+    background: rgb(0, 15, 128);
+    transition: 0.5s;
+    text-transform: uppercase;
+  }
+  
+  /*        footer css            */
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #bbb4b4;
+    color: #050e15;
+    padding: 20px 0;
+  }
+  .h3 {
+    color: rgb(169, 163, 163);
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-info,
+  .social-links,
+  .quick-links {
+    flex: 1;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  .a1 {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .a1:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icons i {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover i {
+    color: #050e15; /* Change color on hover */
+  }
+  
+  .contadd {
+    font-family: "Times New Roman", Times, serif;
+    color: #f7f6fd;
+  }
+#footer{
+    border: 5px;
+    /* padding: 5px;
+    margin:5px; */
+    border-radius: 2%;
+    /* margin-left: 8%; */
+    background: rgb(99, 179, 216);
+  
+  
+}
+/*     footer developer    */
+
+.developer{
+  border-radius: 70%;
+  background: white;
+  text-align: center;
+  justify-content: center;
+  color: #00001b;
+  font-style: italic;
+
+}
+.developer :hover {
+  background: rgb(197, 199, 207);
+  transition: 0.5s;
+  text-transform: uppercase;
+  border-radius: 50%;
+}
